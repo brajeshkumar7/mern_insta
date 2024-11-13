@@ -1,0 +1,42 @@
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.fixed-with {
+  width: 1rem;
+}
+
+.register-form-wrap {
+  position: relative;
+  display: block;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.register-form-wrap h2 {
+  color: #464b4e;
+  margin-bottom: 32px;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.terms {
+  position: relative;
+  display: block;
+}
+
+.terms p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #313030;
+}
+
+.terms p a {
+  font-weight: 600;
+  text-decoration: none;
+}

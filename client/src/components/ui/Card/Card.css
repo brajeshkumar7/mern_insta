@@ -1,0 +1,127 @@
+.card {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.447);
+
+  h2 {
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 0px 3px;
+  }
+
+  .post-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 0px 5px;
+  }
+
+  .photo-container {
+    padding: 0px 5px;
+
+    img {
+      display: flex;
+      flex-direction: column;
+      width: -webkit-fill-available;
+      height: auto;
+    }
+  }
+
+  .action-container {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    .save-icon {
+      margin-left: auto;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .likes-count {
+    padding: 0px 5px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    margin: 0;
+    padding: 0px 5px;
+  }
+
+  .comments {
+    margin: 10px 0px;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+
+    .comment-details {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      margin-bottom: 5px;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+      cursor: pointer;
+    }
+
+    .user-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      .coment-owner {
+        font-size: 12px;
+      }
+
+      .comment {
+        font-size: 13px;
+        color: #0000009d;
+      }
+    }
+
+    .comment-input {
+      outline: none;
+      padding: 10px;
+      color: #0000009d;
+      border: 1px solid #0000009d;
+      border-radius: 20px;
+    }
+
+    .input-wrapper {
+      padding-top: 5px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+
+      input {
+        width: 90%;
+        height: 10px;
+      }
+
+      img {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
